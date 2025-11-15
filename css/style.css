@@ -1,0 +1,50 @@
+@keyframes orbit {
+    0% {
+        transform: translate(120px, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(120px, -50%) rotate(360deg);
+    }
+}
+
+#Main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#Planet-panel {
+    width: 25%;
+    /* background-color: red; */
+}
+
+#Solar-system {
+    width: 50%;
+    /* background-color: green; */
+    position: relative;
+}
+
+#Description-panel {
+    width: 25%;
+    /* background-color: blue; */
+}
+
+#Sun {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Mercury {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(120px, -50%);
+    transform-origin: -120px 50%;
+    animation: orbit 5s linear 0s infinite normal none;
+}
