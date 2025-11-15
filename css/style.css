@@ -48,3 +48,80 @@
     transform-origin: -120px 50%;
     animation: orbit 5s linear 0s infinite normal none;
 }
+
+#Venus {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(160px, -50%);
+    transform-origin: -160px 50%;
+    animation: orbit 7s linear 0s infinite normal none;
+}
+
+#Earth {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(200px, -50%);
+    transform-origin: -200px 50%;
+    animation: orbit 10s linear 0s infinite normal none;
+}
+
+#Mars {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(240px, -50%);
+    transform-origin: -240px 50%;
+    animation: orbit 12s linear 0s infinite normal none;
+}
+
+#Jupiter {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(300px, -50%);
+    transform-origin: -300px 50%;
+    animation: orbit 20s linear 0s infinite normal none;
+}
+
+#Saturn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(360px, -50%);
+    transform-origin: -360px 50%;
+    animation: orbit 25s linear 0s infinite normal none;
+}
+
+#Uranus {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: lightblue;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(420px, -50%);
+    transform-origin: -420px 50%;
+    animation: orbit 30s linear 0s infinite normal none;
+}
+
+#Neptune {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: darkblue;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(480px, -50%);
+    transform-origin: -480px 50%;
+    animation: orbit 35s linear 0s infinite normal none;
+}
